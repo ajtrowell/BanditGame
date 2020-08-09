@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BDURL='bandit.labs.overthewire.org -p 2220'
+
+sshpass -f pw$1 ssh bandit$1@$BDURL

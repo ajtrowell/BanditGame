@@ -1,0 +1,6 @@
+* data9.txt from bandit, processed into pw10
+cat data9.txt | strings | grep ^W=*sw* | grep -oEi '=\s\w*' | grep -oEi '\w*'
+
+
+* date10.txt from bandit10, processed into pw11
+cat data10.txt | base64 >> pw10

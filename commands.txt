@@ -1,0 +1,2 @@
+sshpass -f pw3 scp -P 2220 bandit3@bandit.labs.overthewire.org:~/inhere/.hidden pw4
+sshpass -f pw3 ssh bandit3@bandit.labs.overthewire.org -p 2220
